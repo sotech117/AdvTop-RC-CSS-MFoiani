@@ -1,0 +1,45 @@
+body{
+    font-size: 110%;
+    color: #0000ef;
+}
+
+.infoParagraph{
+    font-family: Georgia, Times, serif;
+}
+
+h1, h2{
+    font-family: arial, geneva, sans-serif;
+    color: #000080;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.blockList{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.blockList > li{
+    font-size: 130%;
+    display: inline;
+    background-color: #d3d3d3;
+}
+
+
+
+
+li > a{
+    color: #006600;
+    text-decoration: none;
+    padding: .2em 1em;
+}
+
+
+li > a:hover{
+    color: #00DD00;
+    background-color: #006600; 
+    text-decoration: inherit;
+}
